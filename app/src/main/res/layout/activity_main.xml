@@ -21,12 +21,12 @@
             android:layout_margin="50dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/circle"
-            android:src="@drawable/cooltext326583122433193" />
+            android:src="@drawable/cooltext326583122433193"
+            android:background="@drawable/circle" />
 
         <TextView
-            android:layout_marginTop="-30dp"
-            android:layout_marginBottom="25dp"
+            android:layout_marginTop="-20dp"
+            android:layout_marginBottom="-25dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Axolon ERP"
@@ -51,16 +51,18 @@
             android:layout_height="wrap_content"
             android:text="Forgotten password?"
             android:textSize="20dp"
+            android:textStyle="bold"
             android:textAlignment="textEnd"
             android:textColor="#0000ff"/>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="25dp"
             android:layout_gravity="center">
             <Button
-                android:layout_marginTop="23dp"
-                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:text="LOG IN"
