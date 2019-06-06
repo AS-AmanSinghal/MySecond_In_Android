@@ -25,6 +25,8 @@
             android:src="@drawable/cooltext326583122433193" />
 
         <TextView
+            android:layout_marginTop="-30dp"
+            android:layout_marginBottom="25dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Axolon ERP"
@@ -57,12 +59,15 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center">
             <Button
+                android:layout_marginTop="23dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="15dp"
+                android:padding="10dp"
                 android:text="LOG IN"
                 android:textSize="25dp"
-                android:background="@drawable/rounded_corner" />
+                android:background="@drawable/rounded_corner"
+                android:clickable="true"
+                android:longClickable="true" />
 
         </LinearLayout>
     </LinearLayout>
